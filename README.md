@@ -15,7 +15,6 @@ To get started, you'll need to install the dependencies by running:
 # Usage
 ## Setting up Sequelize
 Before you can use the library with Sequelize, you'll need to set up a connection to your database. Here's an example of how you might do this:
-
 "const Sequelize = require('sequelize');
 const sequelize = new Sequelize('database', 'username', 'password', {
   host: 'localhost',
